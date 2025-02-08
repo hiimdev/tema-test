@@ -1,9 +1,31 @@
 export const svg = {
   logo: (
-    <g>
-      <rect width="32" height="32" rx="16" fill="currentColor" />
-      <path d="M21.3333 16.0935L11.4399 11.4802V12.8135L19.8133 16.7602L11.4399 20.6802V22.0402L21.3333 17.4268V16.0935Z" fill="#010101" />
-    </g>
+    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <g clip-path="url(#clip0_1510_102)">
+        <rect width="32" height="32" rx="16" fill="black" />
+        <path d="M21.3333 16.0933L11.4399 11.48V12.8133L19.8133 16.76L11.4399 20.68V22.04L21.3333 17.4267V16.0933Z" fill="white" />
+      </g>
+      <defs>
+        <clipPath id="clip0_1510_102">
+          <rect width="32" height="32" rx="16" fill="white" />
+        </clipPath>
+      </defs>
+    </svg>
+
+  ),
+  logo2: (
+    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <g clip-path="url(#clip0_1510_81)">
+        <rect width="32" height="32" rx="16" fill="#DDF247" />
+        <path d="M21.3333 16.0935L11.4399 11.4802V12.8135L19.8133 16.7602L11.4399 20.6802V22.0402L21.3333 17.4268V16.0935Z" fill="#010101" />
+      </g>
+      <defs>
+        <clipPath id="clip0_1510_81">
+          <rect width="32" height="32" rx="16" fill="white" />
+        </clipPath>
+      </defs>
+    </svg>
+
   ),
   arrowUpRight: (
     <svg width="22" height="23" viewBox="0 0 22 23" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -11,9 +33,11 @@ export const svg = {
     </svg>
   ),
   radio: (
-    <svg width="22" height="23" viewBox="0 0 22 23" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M20.25 2L1 21.25M20.25 2L8.75 1.75M20.25 2L20.5 12.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+    <svg width="30" height="31" viewBox="0 0 30 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect x="0.9375" y="1.4375" width="28.125" height="28.125" rx="14.0625" stroke="#FF4F4F" stroke-width="1.875" />
+      <rect x="3.75" y="4.25" width="22.5" height="22.5" rx="11.25" fill="#FF4F4F" />
     </svg>
+
   ),
   branch: (
     <svg width="22" height="23" viewBox="0 0 22 23" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -87,7 +111,7 @@ export const svg = {
   ),
   chevronUp: (
     <svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <path fill-rule="evenodd" clip-rule="evenodd" d="M26.5506 24.9541C26.0624 25.46 25.271 25.46 24.7828 24.9541L19 18.961L13.2173 24.9541C12.7291 25.46 11.9376 25.46 11.4495 24.9541C10.9613 24.4482 10.9613 23.6279 11.4495 23.122L18.1162 16.2129C18.6043 15.707 19.3958 15.707 19.8839 16.2129L26.5506 23.122C27.0387 23.6279 27.0387 24.4482 26.5506 24.9541Z" fill="#DDF247" />
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M26.5506 24.9541C26.0624 25.46 25.271 25.46 24.7828 24.9541L19 18.961L13.2173 24.9541C12.7291 25.46 11.9376 25.46 11.4495 24.9541C10.9613 24.4482 10.9613 23.6279 11.4495 23.122L18.1162 16.2129C18.6043 15.707 19.3958 15.707 19.8839 16.2129L26.5506 23.122C27.0387 23.6279 27.0387 24.4482 26.5506 24.9541Z" fill="currentColor" />
     </svg>
   ),
   menuMobile: (

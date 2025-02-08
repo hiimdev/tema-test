@@ -11,6 +11,7 @@ import tutor from '../assets/tutor.png';
 import udemy from '../assets/udemy.png';
 import us from '../assets/us.png';
 import vn from '../assets/vn.png';
+import closetag from '../assets/close-tag.png';
 
 export default {
   code,
@@ -25,5 +26,6 @@ export default {
   tutor,
   udemy,
   us,
-  vn
+  vn,
+  closetag,
 };
