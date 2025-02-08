@@ -51,6 +51,31 @@ const HeroSection = () => {
           <p className='hero-right-text'>· Name (Skill)</p>
         </div>
       </div>
+
+      <div className='hero-right-mobile'>
+        <div className='img-frame1'>
+          <img src={images.frame1} alt="" width={'100%'} height={'100%'} />
+
+          <div className='img-code'>
+            <img src={images.code} alt="" width={275} height={186} />
+          </div>
+
+          <div className='img-melo'>
+            <img src={images.ItaloMelo} alt="" width={273} height={398} />
+          </div>
+
+          <div className='img-caution'>
+            <img src={images.ParkCaution} alt="" width={103} height={103} />
+          </div>
+
+          <div className='hero-right-desc'>
+            <SvgIcon name="radio" size={22} />
+
+            <p className='hero-right-text'>· Name (Skill)</p>
+          </div>
+        </div>
+
+      </div>
     </section>
   )
 }
