@@ -100,3 +100,13 @@
   font-weight: 250;
   color: white;
 }
+
+@media (max-width: 1024px) {
+  .hero-container {
+    padding: 25px 16px;
+  }
+
+  .wrapper {
+    width: 100%;
+  }
+}
