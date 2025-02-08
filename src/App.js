@@ -1,11 +1,16 @@
 import './App.css';
 import images from './constants/images';
+import SvgIcon from './components/SvgIcon';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={images.test} className="App-logo" alt="logo" />
+        <img src={images.ItaloMelo} className="App-logo" alt="logo" />
+
+        <div className='icon'>
+          <SvgIcon name="resourse" size={32} />
+        </div>
 
         <p>
           Edit <code>src/App.js</code> and save to reload.
