@@ -125,17 +125,37 @@
   display: none;
 }
 
+.scroll-to-top {
+  position: absolute;
+  top: -50px;
+  right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background: #484848;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
 @media (max-width: 1300px) {
   .footer-top {
     top: -50%;
     left: 100px;
     right: 100px;
   }
+
+  .scroll-to-top {
+    top: unset;
+    bottom: 20px;
+    right: 20px;
+  }
 }
 
 @media (max-width: 1024px) {
   .footer-container {
-    padding: 303px 16px 50px;
+    padding: 303px 16px 70px;
   }
 
   .footer-top {

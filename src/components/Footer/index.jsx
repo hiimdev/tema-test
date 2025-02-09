@@ -3,6 +3,10 @@ import './footer.css'
 import SvgIcon from '../SvgIcon'
 
 const Footer = () => {
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
   return (
     <div className='footer-container'>
       <div className='footer-top'>
@@ -51,6 +55,13 @@ const Footer = () => {
 
         <p className='footer-copyright'>© 2021 Copyright. <span className='footer-copyright-brand'>Macode.io</span></p>
       </div>
+
+      <button
+        className="scroll-to-top"
+        onClick={scrollToTop}
+      >
+        <SvgIcon name='scrollToTop' size={38} />
+      </button>
     </div>
   )
 }
