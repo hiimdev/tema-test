@@ -1,0 +1,178 @@
+.feature-container {
+  padding: 100px 0 60px 50px;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.feature-wrap-text {
+  max-width: 360px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  flex: 1;
+}
+
+.feature-title {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.feature-desc {
+  font-size: 22px;
+  font-weight: 250;
+}
+
+.carousel-container {
+  width: 65%;
+  position: relative;
+}
+
+.carousel-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 317px;
+  height: 343px;
+  background-color: white;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 14px;
+}
+
+.slick-dots {
+  position: absolute;
+  bottom: -30px;
+}
+
+.slick-dots li button:before {
+  color: black;
+  font-size: 10px;
+}
+
+.content-wrap {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-around;
+  padding: 0 20px;
+  text-align: left;
+}
+
+.carousel-icon {
+  padding: 20px;
+}
+
+.carousel-text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.carousel-title {
+  font-size: 34px;
+  font-weight: 700;
+}
+
+.carousel-desc {
+  font-size: 16px;
+  font-weight: 400;
+  max-width: 160px;
+}
+
+.carousel-active {
+  background-color: #DDF247;
+}
+
+.icon-active {
+  background-color: white;
+  width: fit-content;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.custom-dots {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  padding-top: 16px;
+  list-style: none;
+  position: absolute;
+  bottom: 1.5rem;
+  left: -29rem;
+}
+
+.custom-dots li:last-child {
+  display: none;
+}
+
+.custom-dot {
+  width: 51px;
+  height: 11px;
+  background: #CFCFCF;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.custom-dots li.slick-active .custom-dot {
+  width: 82px;
+  background: #DDF247;
+}
+
+@media (max-width: 1200px) {
+  .custom-dots {
+    position: unset;
+    margin-top: 66px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .feature-container {
+    flex-direction: column;
+  }
+  
+  .carousel-container {
+    width: 100%;
+  }
+
+  .custom-dots {
+    position: unset;
+    margin-top: 66px;
+  }
+
+  .last-item {
+    display: none;
+    visibility: hidden;
+  }
+}
+
+@media (max-width: 768px) {
+  .feature-container {
+    padding: 100px 0 60px 0;
+  }
+
+  .feature-wrap-text {
+    padding-left: 16px;
+  }
+
+  .feature-title {
+    font-size: 34px;
+    font-weight: 500;
+  }
+
+  .carousel-container {
+    margin: 0 auto;
+  }
+
+  .last-item {
+    display: none;
+    visibility: hidden;
+  }
+
+  .slick-list {
+    text-align: center;
+  }
+}
+
