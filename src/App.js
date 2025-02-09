@@ -8,6 +8,7 @@ import IntroduceSection from './components/IntroduceSection';
 import Tutors from './components/Tutors';
 import PackageSection from './components/PackageSection';
 import FaqsSection from './components/FaqsSection';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -25,6 +26,8 @@ function App() {
       <PackageSection />
 
       <FaqsSection />
+
+      <Footer />
     </div>
   );
 }
