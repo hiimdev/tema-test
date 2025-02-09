@@ -60,14 +60,15 @@ export const svg = {
     </svg>
   ),
   waves: (
-    <svg width="44" height="40" viewBox="0 0 44 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg viewBox="0 0 44 40" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path d="M8 10H12V30H8V10ZM0 16H4V24H0V16ZM16 0H20V36H16V0ZM24 4H28V40H24V4ZM32 10H36V30H32V10ZM40 16H44V24H40V16Z" fill="#DDF247" />
     </svg>
   ),
   showCase: (
-    <svg width="44" height="40" viewBox="0 0 44 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M8 10H12V30H8V10ZM0 16H4V24H0V16ZM16 0H20V36H16V0ZM24 4H28V40H24V4ZM32 10H36V30H32V10ZM40 16H44V24H40V16Z" fill="#DDF247" />
+    <svg viewBox="0 0 36 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M22 16L18 18M18 18L14 16M18 18V23M34 10L30 12M34 10L30 8M34 10V15M22 4L18 2L14 4M2 10L6 8M2 10L6 12M2 10V15M18 38L14 36M18 38L22 36M18 38V33M6 32L2 30V25M30 32L34 30V25" stroke="#DDF247" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
     </svg>
+
   ),
   dollars: (
     <svg width="36" height="40" viewBox="0 0 36 40" fill="none" xmlns="http://www.w3.org/2000/svg">

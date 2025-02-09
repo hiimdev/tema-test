@@ -5,6 +5,7 @@ import HeroSection from './components/HeroSection';
 import PartnerSection from './components/PartnerSection';
 import FeatureSection from './components/FeatureSection';
 import IntroduceSection from './components/IntroduceSection';
+import Tutors from './components/Tutors';
 
 function App() {
   return (
@@ -16,6 +17,8 @@ function App() {
       <FeatureSection />
 
       <IntroduceSection />
+
+      <Tutors />
     </div>
   );
 }

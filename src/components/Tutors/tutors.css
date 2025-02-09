@@ -1,0 +1,98 @@
+.tutors-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 115px;
+  padding-left: 50px;
+  gap: 100px;
+
+  margin-bottom: 100px;
+}
+
+.tutors-left {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 80px;
+}
+
+.tutors-title {
+  font-size: 48px;
+  font-weight: 700;
+  max-width: 600px;
+}
+
+.tutors-card-wrap {
+  display: flex;
+  gap: 30px;
+}
+
+.tutors-card {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.tutors-line {
+  width: 1px;
+  background-color: #E4E4E4;
+}
+
+.tutors-card-text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.tutors-card-title {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.tutors-card-desc {
+  font-size: 14px;
+  font-weight: 400;
+  max-width: 244px;
+}
+
+.tutors-right {
+  flex: 1;
+}
+
+.img-tutors {
+  width: 100%;
+  max-width: 521.93px;
+  object-fit: contain;
+  display: block;
+  max-height: 600px;
+}
+
+@media (max-width: 1024px) {
+  .tutors-container {
+    flex-direction: column;
+    padding: 0 16px;
+  }
+
+  .tutors-left {
+    gap: 50px;
+  }
+
+  .tutors-title {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .tutors-card-wrap {
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+  }
+
+  .tutors-card {
+    gap: 20px;
+  }
+}
