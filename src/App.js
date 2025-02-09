@@ -4,7 +4,7 @@ import './App.css';
 import HeroSection from './components/HeroSection';
 import PartnerSection from './components/PartnerSection';
 import FeatureSection from './components/FeatureSection';
-
+import IntroduceSection from './components/IntroduceSection';
 
 function App() {
   return (
@@ -14,6 +14,8 @@ function App() {
       <PartnerSection />
 
       <FeatureSection />
+
+      <IntroduceSection />
     </div>
   );
 }

@@ -1,0 +1,94 @@
+.introduce-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 140px 115px;
+  gap: 100px;
+}
+
+.introduce-left {
+  flex: 1;
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+}
+
+.img-code2 {
+  width: 100%;
+  max-width: 593px;
+  object-fit: contain;
+  display: block;
+}
+
+.img-ParkCaution {
+  position: absolute;
+  top: 40%;
+  right: 0;
+  max-width: 93.98px;
+}
+
+.introduce-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.introduce-title {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.introduce-desc {
+  font-size: 22px;
+  font-weight: 250;
+}
+
+.introduce-btn {
+  background-color: #010101;
+  max-width: fit-content;
+  height: 75px; 
+  padding: 15px 29px;
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  white-space: nowrap;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+@media (max-width: 1024px) {
+  .introduce-container {
+    flex-direction: column-reverse;
+    gap: 10px;
+    padding: 50px;
+  }
+
+  .introduce-title {
+    font-size: 34px;
+    font-weight: 700;
+  }
+
+  .img-code2 {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .introduce-container {
+    flex-direction: column-reverse;
+    gap: 10px;
+    padding: 16px;
+  }
+
+  .introduce-btn {
+    max-width: 100%;
+    color: #DDF247;
+  }
+
+  .introduce-btn-icon {
+    rotate: 45deg;
+    margin-top: 10px;
+  }
+}
