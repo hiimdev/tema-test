@@ -119,13 +119,29 @@ export const svg = {
     </svg>
   ),
   plus: (
-    <svg width="19" height="10" viewBox="0 0 19 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M0 1H19M0 9H19" stroke="black" stroke-width="2" />
+    <svg viewBox="0 0 62 62" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <g clip-path="url(#clip0_981_739)">
+        <path d="M28.1918 20.863V28.8756H20.6534V33.19H28.1918V41.2026H32.8856V33.19H40.4715V28.8756H32.8856V20.863H28.1918Z" fill="#DDF247" />
+      </g>
+      <rect x="1" y="1" width="60" height="60" rx="30" stroke="black" stroke-width="2" />
+      <defs>
+        <clipPath id="clip0_981_739">
+          <rect width="62" height="62" rx="31" fill="white" />
+        </clipPath>
+      </defs>
     </svg>
   ),
   minus: (
-    <svg width="18" height="5" viewBox="0 0 18 5" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M0.894979 4.19002H17.015V0.017788H0.894979V4.19002Z" fill="#010101" />
+    <svg viewBox="0 0 62 62" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <g clip-path="url(#clip0_981_738)">
+        <rect width="62" height="62" rx="31" fill="#DDF247" />
+        <path d="M22.895 33.19H39.015V29.0178H22.895V33.19Z" fill="#010101" />
+      </g>
+      <defs>
+        <clipPath id="clip0_981_738">
+          <rect width="62" height="62" rx="31" fill="white" />
+        </clipPath>
+      </defs>
     </svg>
   ),
   close: (

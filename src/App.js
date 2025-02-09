@@ -7,6 +7,7 @@ import FeatureSection from './components/FeatureSection';
 import IntroduceSection from './components/IntroduceSection';
 import Tutors from './components/Tutors';
 import PackageSection from './components/PackageSection';
+import FaqsSection from './components/FaqsSection';
 
 function App() {
   return (
@@ -22,6 +23,8 @@ function App() {
       <Tutors />
 
       <PackageSection />
+
+      <FaqsSection />
     </div>
   );
 }
