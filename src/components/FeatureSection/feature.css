@@ -25,7 +25,7 @@
 }
 
 .carousel-container {
-  width: 65%;
+  width: 62%;
   position: relative;
 }
 
@@ -36,8 +36,6 @@
   max-width: 317px;
   height: 343px;
   background-color: white;
-  font-size: 20px;
-  font-weight: bold;
   border-radius: 14px;
 }
 
@@ -101,7 +99,7 @@
   list-style: none;
   position: absolute;
   bottom: 1.5rem;
-  left: -29rem;
+  left: -30rem;
 }
 
 .custom-dots li:last-child {
