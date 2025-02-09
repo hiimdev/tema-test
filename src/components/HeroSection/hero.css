@@ -1,10 +1,8 @@
 .hero-container {
   display: flex;
   gap: 0;
-  /* min-height: 905px; */
-  margin-bottom: 100rem;
-  padding-left: 50px;
   background-color: #f4f4f4;
+  max-height: 905px;
 }
 
 .hero-left {
@@ -12,11 +10,10 @@
   display: flex;
   flex-direction: column;
   gap: 80px;
-  padding-top: 45px;
+  padding: 25px 50px;
 }
 
 .hero-title {
-  display: block;
   max-width: 660px;
   font-size: 60px;
   font-weight: 500;
@@ -25,14 +22,12 @@
 }
 
 .img-hero-title {
-  border-radius: 100%;
+  border-radius: 50%;
 }
 
 .hero-desc-wrap {
   display: flex;
   flex-direction: column;
-  gap: 0;
-
 }
 
 .hero-desc {
@@ -45,10 +40,6 @@
 .hero-right {
   position: relative;
   flex: 1;
-  background: url("../../assets/frame1.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 .hero-btn {
@@ -63,23 +54,29 @@
   white-space: nowrap;
 }
 
-.img-code {
+.img-code, .img-melo, .img-caution {
   position: absolute;
-  left: -20%;
+}
+
+.img-code {
+  left: -25%;
   top: 40%;
+  max-width: 519.42px;
 }
 
 .img-melo {
-  position: absolute;
-  left: 11%;
+  left: 15%;
   bottom: 0;
+  max-width: 516px;
+  height: 752px;
 }
 
 .img-caution {
-  position: absolute;
-  right: 30%;
+  right: 25%;
   bottom: -5%;
   rotate: -30deg;
+  max-width: 194px;
+  max-height: 752px;
 }
 
 .hero-right-desc {
@@ -88,7 +85,7 @@
   left: 0;
   width: 344px;
   height: 67px;
-  background: #01010180;
+  background: rgba(1, 1, 1, 0.5);
   display: flex;
   align-items: center;
   padding-left: 70px;
@@ -105,21 +102,24 @@
 .hero-right-mobile {
   display: none;
   position: relative;
-  margin-top: 100px;
 }
 
 .img-frame1 {
-  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.img-code, .img-melo, .img-caution {
+  width: 100%;
+  object-fit: cover;
+  display: block;
 }
 
 @media (max-width: 1024px) {
   .hero-container {
-    padding: 25px 16px;
     flex-direction: column;
-  }
-
-  .wrapper {
-    width: 100%;
   }
 
   .hero-title {
@@ -130,32 +130,44 @@
 
   .hero-left {
     gap: 40px;
+    padding: 30px 16px;
   }
 
   .hero-right {
     display: none;
   }
-  
 }
 
 @media (max-width: 768px) {
+  .hero-container {
+    margin-bottom: 12rem;
+  }
+
   .hero-right-mobile {
     display: block;
+    margin-top: 20px;
+    height: 479.67px;
   }
 
   .img-code {
+    max-width: 275px;
     left: 0;
     top: 40%;
   }
-  
+
+  .img-melo {
+    max-width: 275px;
+    height: 100%;
+  }
+
   .img-caution {
+    max-width: 103px;
     right: 10%;
   }
 
   .hero-right-desc {
     width: 200px;
     height: 50px;
-    background: #01010180;
     padding-left: 10px;
     bottom: 1%;
   }

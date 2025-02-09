@@ -1,0 +1,39 @@
+.partner-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 70px 130px;
+  max-height: 282px;
+  margin-bottom: 10rem;
+  justify-items: center;
+}
+
+.img-partner {
+  width: 100%;
+  max-width: 250px;
+  aspect-ratio: 4 / 3;
+  object-fit: contain;
+  display: block;
+}
+
+@media (max-width: 1024px) {
+  .partner-container {
+    gap: 10px;
+    padding: 20px;
+  }
+
+  .img-partner {
+    max-width: 120px;
+  }
+}
+
+@media (max-width: 768px) {
+  .partner-container {
+    gap: 10px;
+    padding: 60px 20px;
+  }
+
+  .img-partner {
+    max-width: 70px;
+  }
+}

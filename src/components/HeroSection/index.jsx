@@ -33,17 +33,13 @@ const HeroSection = () => {
       </div>
 
       <div className='hero-right'>
-        <div className='img-code'>
-          <img src={images.code} alt="" width={519} height={351} />
-        </div>
+        <img src={images.frame1} alt="" className='img-frame1' />
 
-        <div className='img-melo'>
-          <img src={images.ItaloMelo} alt="" width={516} height={752} />
-        </div>
+        <img src={images.code} alt="" className='img-code' />
 
-        <div className='img-caution'>
-          <img src={images.ParkCaution} alt="" width={194} height={194} />
-        </div>
+        <img src={images.ItaloMelo} alt="" className='img-melo' />
+
+        <img src={images.ParkCaution} alt="" className='img-caution' />
 
         <div className='hero-right-desc'>
           <SvgIcon name="radio" size={22} />
@@ -53,26 +49,21 @@ const HeroSection = () => {
       </div>
 
       <div className='hero-right-mobile'>
-        <div className='img-frame1'>
-          <img src={images.frame1} alt="" width={'100%'} height={'100%'} />
+        <img src={images.frame1} alt="" className='img-frame1' />
 
-          <div className='img-code'>
-            <img src={images.code} alt="" width={275} height={186} />
-          </div>
 
-          <div className='img-melo'>
-            <img src={images.ItaloMelo} alt="" width={273} height={398} />
-          </div>
+        <img src={images.code} alt="" className='img-code' />
 
-          <div className='img-caution'>
-            <img src={images.ParkCaution} alt="" width={103} height={103} />
-          </div>
 
-          <div className='hero-right-desc'>
-            <SvgIcon name="radio" size={22} />
+        <img src={images.ItaloMelo} className='img-melo' />
 
-            <p className='hero-right-text'>· Name (Skill)</p>
-          </div>
+        <img src={images.ParkCaution} alt="" className='img-caution' />
+
+
+        <div className='hero-right-desc'>
+          <SvgIcon name="radio" size={22} />
+
+          <p className='hero-right-text'>· Name (Skill)</p>
         </div>
 
       </div>
