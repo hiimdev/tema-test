@@ -1,0 +1,126 @@
+.package-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 80px;
+
+  margin-bottom: 100px;
+}
+
+.package-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.package-title {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.package-desc {
+  font-size: 22px;
+  font-weight: 250;
+}
+
+.package-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 30px;
+}
+
+.package-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+  text-align: center;
+  max-width: 393px;
+  border-radius: 10px;
+  padding: 50px 40px;
+  background-color: #F4F4F4;
+}
+
+.package-card-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.package-card-title {
+  font-size: 24;
+  font-weight: 400;
+}
+
+.package-card-price {
+  position: relative;
+  display: block;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.package-icon-dollar {
+  position: absolute;
+  top: 12px;
+  left: -20px;
+}
+
+.package-card-desc {
+  position: relative;
+  display: block;
+  font-size: 22px;
+  font-weight: 250;
+}
+
+.img-new {
+  position: absolute;
+  top: -70px;
+  left: -10px;
+  width: 100%;
+  object-fit: contain;
+  display: block;
+  max-width: 40px;
+}
+
+.package-card-btn {
+  width: 100%;
+  color: #DDF247;
+  background-color: white;
+  padding: 15px 29px;
+  font-size: 22px;
+  font-weight: 500;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.special {
+  background-color: #010101;
+  color: white;
+}
+
+.btn-special {
+  background-color: #DDF247;
+  color: black;
+}
+
+@media (max-width: 1024px) {
+  .package-container {
+    padding: 16px;
+  }
+
+  .package-text {
+    text-align: center;
+  }
+
+  .package-wrap {
+    flex-direction: column;
+  }
+
+  .package-title {
+    font-size: 34px;
+  }
+}
