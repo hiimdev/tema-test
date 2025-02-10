@@ -7,8 +7,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 To get started, clone the repository using the following command:
 
 ```sh
-git clone <https://github.com/hiimdev/tema-test.git>
-cd <tema-test>
+git clone [https://github.com/hiimdev/tema-test.git](https://github.com/hiimdev/tema-test.git)
+cd tema-test
 ```
 
 ## Install Dependencies
