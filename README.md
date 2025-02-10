@@ -1,13 +1,13 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with Create React App.
 
 ## Clone the Repository
 
 To get started, clone the repository using the following command:
 
 ```sh
-git clone [https://github.com/hiimdev/tema-test.git](https://github.com/hiimdev/tema-test.git)
+git clone https://github.com/hiimdev/tema-test.git
 cd tema-test
 ```
 
